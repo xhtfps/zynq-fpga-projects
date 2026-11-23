@@ -1,0 +1,39 @@
+# 编译与构建产物
+*.o
+*.d
+*.crf
+*.obj
+*.axf
+*.lst
+*.map
+*.elf
+*.qpg
+*.dcp
+*.wdb
+*.jou
+*.log
+# IDE / 系统缓存
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+# 大体积资源
+*.rar
+*.zip
+*.7z
+*.iso
+*.img
+*.mp4
+*.wmv
+*.avi
+*.exe
+*.msi
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.mp3
+*.wav
