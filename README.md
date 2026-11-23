@@ -78,6 +78,18 @@ flowchart LR
 - 只交源码、约束与 IP 配置；综合产物与 `.bit` 不入库，见 [`EXCLUDED_FILES.md`](EXCLUDED_FILES.md)。
 - 与 `zynq-navigator-board` 的分工：本仓库是自己写的 FPGA 工程，后者是厂商资料镜像（含 Vitis/Linux 教程）。
 - 引用自正点原子教程的结构版权归原作者。
+
+## 大文件去哪了
+
+按 `SLIM-PLAN.md` 的口径做体积治理：以下文件**从 HEAD 移出、历史完整保留**。需要时按 `base_commit` 直链下载，不要重新提交进仓。
+
+| 文件 | 体积 | 取回 |
+| --- | --- | --- |
+| `blk_mem_gen_v8_4_vhsyn_rfs.vhd` | 14.2 MB | [blob@92c34db](https://github.com/xhtfps/zynq-fpga-projects/blob/92c34dbcb140b1b26ecd2b6a0fa1f23dc087f35b/ip_fifo/ip_fifo.srcs/sources_1/ip/fifo_generator_0/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd) |
+| `blk_mem_gen_v8_3_vhsyn_rfs.vhd` | 14.2 MB | [blob@92c34db](https://github.com/xhtfps/zynq-fpga-projects/blob/92c34dbcb140b1b26ecd2b6a0fa1f23dc087f35b/led_twinkle/led_twinkle.srcs/sources_1/ip/ila_0/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd) |
+
+完整台账见 [`notes/offload.json`](https://github.com/xhtfps/notes/blob/main/offload.json)，恢复命令 `python tools/fetch-assets.py --repo zynq-fpga-projects`。
+
 ## 路线图
 
 - [x] 七个入门工程逐个上板验证
