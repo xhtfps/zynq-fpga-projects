@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+*.dcp  binary
+*.bit  binary
+*.xsa  binary
+*.zip  binary
+*.png  binary
+*.pdf  binary
