@@ -1,8 +1,0 @@
-0.6
-2018.3
-Dec  7 2018
-00:33:28
-D:/ZYNQ_project/led_twinkle/led_twinkle.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
-D:/ZYNQ_project/led_twinkle/led_twinkle.srcs/sim_1/new/tb_led_twinkle.v,1786341246,verilog,,,,tb_led_twinkle,,,,,,,,
-D:/ZYNQ_project/led_twinkle/led_twinkle.srcs/sources_1/ip/ila_0/sim/ila_0.v,1786296972,verilog,,D:/ZYNQ_project/led_twinkle/led_twinkle.srcs/sources_1/new/led_twinkle.v,,ila_0,,,,,,,,
-D:/ZYNQ_project/led_twinkle/led_twinkle.srcs/sources_1/new/led_twinkle.v,1786342496,verilog,,D:/ZYNQ_project/led_twinkle/led_twinkle.srcs/sim_1/new/tb_led_twinkle.v,,led_twinkle,,,,,,,,
